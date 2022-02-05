@@ -6,8 +6,14 @@ function App() {
   return (
     <BrowserRouter>
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/recruit">Recruit</Link>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/recruit">Recruit</Link>
+          </li>
+        </ul>
       </nav>
       <Routes>
         <Route path="/" exact element={<HOME />} />
@@ -18,3 +24,4 @@ function App() {
 }
 
 export default App;
+
