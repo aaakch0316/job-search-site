@@ -1,7 +1,9 @@
 import react from 'react';
 
-const recruit = () => {
+const RECRUIT = () => {
     return (
         <h3>RECRUIT</h3>
     )
 }
+
+export default RECRUIT;

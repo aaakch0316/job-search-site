@@ -1,10 +1,15 @@
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import HOME from './components/home'
+import RECRUIT from './components/recruit'
 
 function App() {
   return (
-    <div className="App">
-      start pj
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" exact element={<HOME />} />
+        <Route path="/recruit" exact element={<RECRUIT />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

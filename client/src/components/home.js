@@ -1,3 +1,5 @@
+import react from 'react';
+
 const Home = () => {
     return (
         <h3>HOME</h3>
