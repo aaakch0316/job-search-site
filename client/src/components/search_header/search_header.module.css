@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    /* padding: 0.8em 1em; */
+    /* background: tomato; */
+    color:gray;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 5em;
+}
+
+.input {
+    font-size: 1.2rem;
+    height: 2rem;
+    outline: 0;
+
+}
+
+.img {
+    height: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    background-color: gray;
+    outline: 0;
+}
+
+.buttonimg {
+    height: 100%;
+    /* object-fit: cover */
+    /* padding: 0.5em 0.2em; */
+}
