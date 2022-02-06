@@ -4,12 +4,12 @@ import React from 'react';
 const Home = () => {
     return (
         <div>
-            <SearchHeader />
+            {/* <SearchHeader /> */}
             <h3>HOME</h3>
-            <form action="/report" method="get">
+            {/* <form action="/report" method="get">
                 <input placeholder="Search for a job" required name="word" />
                 <button>Search</button>
-            </form>
+            </form> */}
         </div>
     )
 }
