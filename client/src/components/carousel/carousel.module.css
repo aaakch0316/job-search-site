@@ -1,0 +1,93 @@
+.base {}
+
+.container {
+    position: relative; 
+    /* width: 100%; */
+}
+
+.arrowButtonLeft {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    padding: 8px 12px;
+    font-size: 48px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    margin: 0;
+    left: 0;
+}
+
+.arrowButtonRight {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    padding: 8px 12px;
+    font-size: 48px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    margin: 0;
+    right: 0;
+}
+
+.carouselList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* justify-content: center; */
+    overflow: hidden;
+}
+
+.carouselListItem {
+    width: 100%;
+    flex: 1 0 100%;
+}
+
+.carouselListItem0 {
+    transform: translateX(-0%);
+    transition: 400ms ease;
+}
+.carouselListItem1 {
+    transform: translateX(-100%);
+    transition: 400ms ease;
+}
+.carouselListItem2 {
+    transform: translateX(-200%);
+    transition: 400ms ease;
+}
+
+
+.carouselListItemImage {
+    width: 100%;
+    height: fit-content;
+}
+
+.navButton {
+    width: 4px;
+    height: 4px;
+    background-color: #000;
+}
+
+.navButton0{
+    opacity: 0.3
+}
+.navButton1{
+    opacity: 0.1
+}
+
+.navItem {
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;   
+}

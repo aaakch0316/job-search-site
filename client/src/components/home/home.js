@@ -1,5 +1,6 @@
 import SearchHeader from '../search_header/search_header'
 import React from 'react';
+import Carousel from '../carousel/carousel';
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
                 <input placeholder="Search for a job" required name="word" />
                 <button>Search</button>
             </form> */}
+            <Carousel />
         </div>
     )
 }
